@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+h1 {
+    color: #333;
+}
+
+.calculatora {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+input[type="number"] {
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 5px;
+    font-weight: bold;
+}
